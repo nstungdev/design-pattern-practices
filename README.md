@@ -4,8 +4,10 @@
 1. Builder
 2. Prototype
 3. Singleton
-4. Asbtract Factory
-5. Factory method
+4. **Asbtract Factory**\
+  Tạo ra một lớp có khả năng cung cấp các *instance* cho một nhóm đối tượng có liên quan mà không cần chỉ định các lớp cụ thể.\
+![Abstract-Factory-Diagram](/assets/diagrams/abstract-factory-diagram.png "Abstract Factory Class Diagram")
+6. Factory method
 
 ## Structural
 1. **Proxy**\
