@@ -9,4 +9,5 @@
 
 ## Structural
 1. **Proxy**\
-  Bọc lớp service chính bằng một lớp Proxy cùng *implement* chung *interface* với lớp service chính. Mọi request từ client điều sẽ được lớp Proxy tiếp nhận trước khi Proxy chuyển lại request đó cho lớp service chính.
+  Bọc lớp service chính bằng một lớp Proxy cùng *implement* chung *interface* với lớp service chính. Mọi request từ client điều sẽ được lớp Proxy tiếp nhận trước khi Proxy chuyển lại request đó cho lớp service chính.\
+![Proxy-Diagram](/assets/diagrams/proxy-diagram.png "Proxy Class Diagram")
