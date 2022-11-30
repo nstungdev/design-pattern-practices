@@ -16,3 +16,10 @@
 2. **Bridge**\
   Chia một lớp lớn, phức tạp thành 2 lớp nhỏ hơn bao gồm (*Abstraction* và *Implemention*). *Abstraction* là lớp có nhiệm vụ đại diện nhận các request từ client và sau đó sẽ gọi phương thức thích hợp từ lớp *Implementation*.\
   ![Bridge-Diagram](/assets/diagrams/bridge-diagram.png "Bridge Class Diagram")
+
+## Độ khó & độ phổ biến
+|Pattern|Độ khó|Độ phổ biến|
+|-------|------|-----------|
+|Builder|Trung bình|Cao|
+|Prototype|Thấp|Trung bình|
+|Flyweight|Cao|Thấp|
