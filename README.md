@@ -16,8 +16,8 @@
 2. **Bridge**\
   Chia một lớp lớn, phức tạp thành 2 lớp nhỏ hơn bao gồm (*Abstraction* và *Implemention*). *Abstraction* là lớp có nhiệm vụ đại diện nhận các request từ client và sau đó sẽ gọi phương thức thích hợp từ lớp *Implementation*.\
 ![Bridge-Diagram](/assets/diagrams/bridge-diagram.png "Bridge Class Diagram")
-3. **Flyweight**
-  Chia một đối tượng được tạo ra rất nhiều trong lúc sử dụng dẫn đến tốn nhiều tài nguyên tại RAM. Pattern chia đối tượng thành 2 lớp, lớp *Flyweight* chứa các trạng thái nội tại, còn lớp *Context* chứa các trạng thái hay biến đổi gọi là các trạng thái bên ngoài.
+3. **Flyweight**\
+  Chia một đối tượng được tạo ra rất nhiều trong lúc sử dụng dẫn đến tốn nhiều tài nguyên tại RAM. Pattern chia đối tượng thành 2 lớp, lớp *Flyweight* chứa các trạng thái nội tại, còn lớp *Context* chứa các trạng thái hay biến đổi gọi là các trạng thái bên ngoài.\
 ![Flyweight-Diagram](/assets/diagrams/flyweight-diagram.png "Flyweight Class Diagram")  
 
 ## Độ khó & độ phổ biến
